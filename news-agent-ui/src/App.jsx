@@ -1,5 +1,7 @@
 import AskAIPage from "./AskAIPage";
 
+const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+
 import { Menu } from "lucide-react";
 import {
   Sheet,
